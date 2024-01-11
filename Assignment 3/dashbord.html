@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        h3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Hey! Hello My Friends, Welcome to My WebSite</h3>
+    <button class="logout">Log out</button>
+    <script>
+        var logout = document.querySelector(".logout");
+        
+
+        logout.addEventListener("click" , function () {
+            window.location.href = "index.html";
+
+        })
+
+    </script>
+</body>
+</html>
